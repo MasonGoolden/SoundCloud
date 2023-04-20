@@ -1,0 +1,75 @@
+/* CSS Document */
+
+/* COLORS 
+#1E1E24 - Black
+#FFFFFF - White
+#736E6D - Dim Grey
+#868784 - Lighter Grey
+#FE5D26 - Orange
+*/
+
+/* FONTS 
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Schibsted Grotesk', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins&family=Rubik&family=Schibsted+Grotesk&display=swap');
+
+/* CSS Browser Reset */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+nav {
+    background-color: #868784;
+   text-align: center;
+  font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+}
+
+nav a{
+    text-decoration: none;
+     color:#353535;
+    text-align: center;
+}
+
+nav li{
+   display: inline-block;
+    padding: 0 0 10px 0;
+}
+
+nav img{
+    display: block;
+    margin: 0 auto;
+    
+}
+
+nav li a:hover{
+    background-color: #736E6D;
+    color: white;
+}
+
+.SCHOME img{
+    margin-left: 318px;
+}
+
+.SCHOME{
+    background-color: #736E6D;
+    border-radius: 10px; 
+    margin: 4%;
+    padding-bottom: 1%;
+}
+
+.SCHOME p{
+    text-align: center;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 1.5em;
+}
